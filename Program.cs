@@ -35,10 +35,9 @@ app.Run();
 
 public static class WebsiteKeys
 {
-    public const string GitHubRepo = "https://github.com/tesar-tech/blazorStaticMinimalBlog";
-    public const string X = "https://x.com/";
-    public const string Title = "BlazorStatic Minimal Blog";
+    public const string GitHubRepo = "https://github.com/SecureByDesignAtChris/SecureByDesignWebsite";
+    public const string Title = "Secure By Design";
     public const string BlogPostStorageAddress = $"{GitHubRepo}/tree/main/Content/Blog";
-    public const string BlogLead = "Sample blog created with BlazorStatic and tailwindcss";
+    public const string BlogLead = "Hjælper mindre virksomheder med at gøre deres applikationer sikre";
 
 }
