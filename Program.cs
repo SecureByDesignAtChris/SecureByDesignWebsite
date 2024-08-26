@@ -39,5 +39,4 @@ public static class WebsiteKeys
     public const string Title = "Secure By Design";
     public const string BlogPostStorageAddress = $"{GitHubRepo}/tree/main/Content/Blog";
     public const string BlogLead = "Hjælper mindre virksomheder med at gøre deres applikationer sikre";
-
 }
