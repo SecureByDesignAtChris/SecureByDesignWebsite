@@ -4,12 +4,7 @@
   "version": "0.1.0",
   "homepage": ".",
   "scripts": {
-    "build": "react-scripts --openssl-legacy-provider build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages",
-    "eject": "react-scripts eject",
-    "start": "react-scripts --openssl-legacy-provider start",
-    "test": "react-scripts test"
+    "deploy": "gh-pages -b gh-pages"
   },
   "dependencies": {
     "apollo-boost": "^0.4.4",
