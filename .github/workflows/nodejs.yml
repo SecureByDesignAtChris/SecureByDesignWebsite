@@ -45,7 +45,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm install gh-pages
-    - run: npm gh-pages -d build
+    - run: |
+      git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+      npm install
+      npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
