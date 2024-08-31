@@ -308,8 +308,5 @@ export {
   socialMediaLinks,
   skills,
   experience,
-  projectsHeader,
-  publicationsHeader,
-  publications,
   contactPageData,
 };
