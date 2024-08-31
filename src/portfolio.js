@@ -20,7 +20,7 @@ const seo = {
 //Home Page
 const greeting = {
   title: "SecureByDesign",
-  logo_name: "AshutoshHathidara",
+  logo_name: "SecureByDesign",
   subTitle:
     "Hjælper virksomheder med at få styr på deres applikations sikkerhed.", // TODO: omskriv
 };
