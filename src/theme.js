@@ -38,7 +38,7 @@ export const purpleTheme = {
   compImgHighlight: "#E6E6E6",
   jacketColor: "#5E548E",
   headerColor: "#BE95C477",
-  splashBg: "#231942",
+  splashBg: "#F8EFF4",
 };
 
 export const greenTheme = {
