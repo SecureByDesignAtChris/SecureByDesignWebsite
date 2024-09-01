@@ -32,15 +32,15 @@ class LogoLoader extends React.Component {
                 width="1190"
                 height="220"
                 fill="white"
-                anim:x="20[0:1.9:1000:ease-in-out]"
+                animX="20[0:1.9:1000:ease-in-out]"
               ></rect>
               <g id="Group 4">
                 <g id="Group 6">
-                  <g id="Frame 13" anim:rotation="40[0:0.9:0:ease-in-out]">
+                  <g id="Frame 13" animRotation="40[0:0.9:0:ease-in-out]">
                     <g
                       id="Ellipse 15"
                       filter="url(#filter0_d_430_1196)"
-                      anim:y="-17[0:1:0:ease-in-out]"
+                      animY="-17[0:1:0:ease-in-out]"
                     >
                       <path
                         d="M327.76 245.974C313.734 230.5 360.234 156.5 281.748 156.5C203.262 156.5 244.734 233 230.625 245.974C216.517 258.949 187.167 137 281.748 137C376.329 137 341.786 261.449 327.76 245.974Z"
@@ -105,7 +105,7 @@ class LogoLoader extends React.Component {
                 <g
                   id="Frame 14"
                   filter="url(#filter2_f_430_1196)"
-                  anim:rotation="0[0:1.5:110:ease-in-out]"
+                  animRotation="0[0:1.5:110:ease-in-out]"
                 >
                   <circle
                     id="Ellipse 16"
@@ -136,7 +136,7 @@ class LogoLoader extends React.Component {
                 <g
                   id="Frame 15"
                   filter="url(#filter3_f_430_1196)"
-                  anim:rotation="0[0:1.5:-110:ease-in-out]"
+                  animRotation="0[0:1.5:-110:ease-in-out]"
                 >
                   <path
                     id="Ellipse 16_2"
