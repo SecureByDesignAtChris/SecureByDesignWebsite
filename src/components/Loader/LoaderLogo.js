@@ -9,10 +9,12 @@ class LogoLoader extends React.Component {
         <svg
           viewBox="0 0 1662 886"
           fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsAnim="http://www.w3.org/2000/anim"
           anim=""
-          anim:transform-origin="50% 50%"
-          anim:duration="1"
-          anim:ease="ease-in-out"
+          animTransform-origin="50% 50%"
+          animDuration="1"
+          animEase="ease-in-out"
         >
           <g id="Frame 16">
             <rect width="1662" height="886" fill="white"></rect>
