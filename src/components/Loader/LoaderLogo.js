@@ -30,7 +30,7 @@ class LogoLoader extends React.Component {
               width="1190"
               height="220"
               fill="#FFFFEB"
-              anim:x="20[0:1.9:1000:ease-in-out]"
+              animX="20[0:1.9:1000:ease-in-out]"
             ></rect>
             <g id="Group 4">
               <g id="Group 6">
