@@ -43,7 +43,7 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Home
+                  Ydelser
                 </NavLink>
               </li>
               <li>
@@ -55,7 +55,7 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Ydelseer
+                  Om
                 </NavLink>
               </li>
               <li>
