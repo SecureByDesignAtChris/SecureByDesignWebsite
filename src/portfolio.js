@@ -2,14 +2,14 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
   title: "SecureByDesign",
   description:
-    "Hjælper virksomheder med at få styr på deres applikations sikkerhed", // TODO: omskriv
+    "Øger trygheden for brugerne, gennem sikkerhedsoptimering af jeres platforme", // TODO: omskriv
   og: {
     title: "SecureByDesign",
     type: "website",
@@ -22,7 +22,7 @@ const greeting = {
   title: "SecureByDesign",
   logo_name: "SecureByDesign",
   subTitle:
-    "Hjælper virksomheder med at få styr på deres applikations sikkerhed.", // TODO: omskriv
+    "Øger trygheden for brugerne, gennem sikkerhedsoptimering af jeres platforme", // TODO: omskriv
 };
 
 const socialMediaLinks = [
