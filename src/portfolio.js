@@ -67,7 +67,6 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "UI/UX Design",
       fileName: "DesignImg",
       skills: [
         "⚡ Designing highly attractive user interface for mobile and web applications",
