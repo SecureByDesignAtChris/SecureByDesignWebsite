@@ -42,9 +42,9 @@ export const purpleTheme = {
 };
 
 export const greenTheme = {
-  body: "#FFFFEB",
+  body: "#FFFFFF",
   text: "#939393",
-  expTxtColor: "#790101",
+  expTxtColor: "#000000",
   highlight: "#dddf00",
   dark: "#00072D",
   secondaryText: "#717171",
