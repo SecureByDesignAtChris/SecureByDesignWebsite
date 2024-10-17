@@ -34,16 +34,6 @@ class Header extends Component {
               </li>
               <li>
                 <NavLink
-                  to="/om"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                >
-                  Om
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
                   to="/kontakt"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
