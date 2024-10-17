@@ -22,7 +22,6 @@ class Kontakt extends Component {
         <div className="om">
           <div className="om-heading-div">
             <div className="om-heading-text-div">
-              <h1 className="om-heading-text"></h1>
               <h3 className="om-heading-sub-text">Hvad er SecureByDesign?</h3>
               <p className="om-header-detail-text">
                 SecureByDesign er skabt ud fra ideén om at alle skal kunne føle

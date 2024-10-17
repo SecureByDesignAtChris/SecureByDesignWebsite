@@ -1,14 +1,6 @@
 import React from "react";
 import "./Button.css";
 
-const onMouseEnter = (event) => {
-  const el = event.target;
-};
-
-const onMouseOut = (event) => {
-  const el = event.target;
-};
-
 export default function Button({ text, className, href, newTab }) {
   return (
     <div className={className}>
