@@ -11,7 +11,7 @@
   display: inline-block;
   margin-right: 20px;
   margin-bottom: 20px;
-  font-family: "Google Sans Regular";
+  font-family: "Montserrat";
 }
 
 .software-skill-inline > i {
@@ -23,5 +23,6 @@
 }
 
 .skill-image {
-  height: 48px;
+  height: 200;
+  width: 200;
 }

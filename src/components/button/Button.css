@@ -1,7 +1,7 @@
 .main-button {
-  background-color: #55198b;
-  border: solid 1px #55198b;
-  color: white;
+  background-color: #f2b949;
+  border: solid 1px #f2b949;
+  color: rgb(0, 0, 46);
   font-weight: 500;
   line-height: 1.1;
   width: max-content;
@@ -11,7 +11,7 @@
   border-radius: 6px;
   text-align: center;
   text-decoration: none;
-  font-family: "Google Sans Regular";
+  font-family: "Montserrat";
   display: block;
   margin-top: 20px;
   font-size: 18px;
@@ -19,9 +19,8 @@
   letter-spacing: 2px;
 }
 .main-button:hover {
-  /* background-color: #ffffff; */
-  /* color: black; */
-  transition: ease-in 0.3s;
+  background-color: #ffce1b;
+  color: rgb(0, 0, 46);
 }
 .project-button {
   display: flex;

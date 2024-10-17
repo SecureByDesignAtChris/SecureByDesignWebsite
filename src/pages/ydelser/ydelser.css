@@ -1,0 +1,63 @@
+.subText {
+  font-weight: bold;
+  font-family: "Montserrat";
+  line-height: normal;
+  color: #02150e;
+}
+
+.ydelserContainer {
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 100%;
+}
+
+.ydelse {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: center;
+}
+
+.ydelse-heading {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Google Sans Bold";
+  line-height: normal;
+  color: #02150e;
+}
+
+.ydelse-text-div {
+  font-family: "Montserrat";
+  max-width: 55%;
+}
+
+.ydelse-text {
+  font-size: 30px;
+  font-family: "Montserrat";
+  line-height: normal;
+  color: #02150e;
+  text-align: center;
+  white-space: pre;
+  text-align: left;
+  text-wrap: wrap;
+  word-wrap: break-word;
+}
+
+.ydelse-image-div > * {
+  height: 300px;
+  width: 300px;
+}
+
+.ydelse-image-div {
+  width: 25%;
+}
+
+.line {
+  width: 80%;
+  height: 1px;
+  background-color: #02150e;
+}
+
+.divider {
+  max-width: 75%;
+}

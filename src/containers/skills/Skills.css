@@ -1,52 +1,83 @@
 .skills-main-div {
-  display: flex;
+  display: block;
   overflow: hidden;
   border-style: solid;
   border-radius: 23px;
   box-shadow: 5px 5px 12px gray;
 }
 
+.card:hover {
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+  border-radius: 23px;
+  border-color: rgb(255, 255, 255);
+  opacity: 1;
+}
+
+.card {
+  opacity: 0.8;
+  border-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#skills {
+  max-width: 25%;
+  height: fit-content;
+}
+
+#skills a {
+  color: white;
+}
+
+.skills-outer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 .skills-header {
   font-size: 60px;
   line-height: normal;
-  font-family: "Google Sans Regular";
+  font-family: "Montserrat";
   text-align: center;
 }
 
 .skills-text {
   font-size: 20px;
+  color: #02150e;
 }
 
 .skills-text-div {
-  margin-left: 50px;
-  font-family: "Google Sans Regular";
+  font-family: "Montserrat";
 }
 
 .skills-main-div > * {
   flex: 1;
-  margin-bottom: 30px;
 }
 
 .skills-image-div > * {
-  max-width: 100%;
-  height: auto;
-  margin-top: 100px;
+  height: 300px;
+  width: 300px;
 }
 
 .skills-heading {
-  font-size: 56px;
-  font-weight: 400;
-  font-family: "Google Sans Regular";
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Montserrat";
   line-height: normal;
+  color: #02150e;
+  text-align: center;
 }
 
 /* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {
-    font-size: 40px;
+    font-size: 30px;
   }
   .skills-header {
-    font-size: 50px;
+    font-size: 40px;
   }
   /* .skills-image-div > img {
     margin-top: 0px;
@@ -54,11 +85,11 @@
 }
 @media (max-width: 768px) {
   .skills-heading {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
   }
   .skills-header {
-    font-size: 30px;
+    font-size: 20px;
   }
   .greeting-text-p {
     font-size: 16px;

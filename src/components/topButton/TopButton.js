@@ -51,9 +51,9 @@ export default function TopButton({ theme }) {
       onClick={GoUpEvent}
       id="topButton"
       style={{
-        color: theme.body,
-        backgroundColor: theme.text,
-        border: `solid 1px ${theme.text}`,
+        color: "#f2b949",
+        backgroundColor: "rgb(0, 0, 46)",
+        border: `solid 1px rgb(0, 0, 46)`,
       }}
       title="Go up"
       onMouseEnter={() => onMouseEnter(theme.text, theme.body)}

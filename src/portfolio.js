@@ -22,7 +22,12 @@ const greeting = {
   title: "SecureByDesign",
   logo_name: "SecureByDesign",
   subTitle:
-    "Øger trygheden for brugerne, gennem sikkerhedsoptimering af jeres platforme", // TODO: omskriv
+    "Øger trygheden for brugerne, gennem sikkerhedsoptimering af jeres platforme",
+};
+
+const ydelser = {
+  subTitle:
+    "SecureByDesign tilbyder en række ydelser til sikkerheds- or privatiseringsoptimering hos din virksomhed",
 };
 
 const socialMediaLinks = [
@@ -65,43 +70,36 @@ const socialMediaLinks = [
 ];
 
 const skills = {
-  data: [
+  softwareSkills: [
     {
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+      skillName: "Sikkerhedsreview",
+      image: require("./assets/images/security_review.svg"),
+      text: [
+        "Gennemgang af kode og release pipelines, som er udarbejdet af konsulenter, in-house eller AI",
+        "Reperation af sikkerhedshuller fundet i kode",
       ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
+    },
+    {
+      skillName: "Threat modeling",
+      image: require("./assets/images/threat_modeling.svg"),
+      text: [
+        "Få et overblik over eventuelle sårbarheder i it-systemet samt en prioriting af hvilke sårbarheder der er vigtigst af have fokus på",
+        "Oplæring i brugen af processen, så dette selvstændigt kan anvendes af virksomheden fremover",
+      ],
+    },
+    {
+      skillName: "GDPR compliance",
+      image: require("./assets/images/gdpr_compliance.svg"),
+      text: [
+        "Gennemgå checkliste med henblik på at jeres applikationer lever op til GDPR kravene",
+        "Implementering af indbygget databeskyttelse (privacy-by-design), ved nyt it-system eller et allerede fuldtkørende system",
+      ],
+    },
+    {
+      skillName: "Sikkerhedsdesign",
+      image: require("./assets/images/secure_design.svg"),
+      text: [
+        "Hvordan jeres virksomhed kan tænke sikkerhed ind fra start til slut i jeres applikationer",
       ],
     },
   ],
@@ -304,6 +302,7 @@ export {
   settings,
   seo,
   greeting,
+  ydelser,
   socialMediaLinks,
   skills,
   experience,

@@ -10,7 +10,13 @@ class Home extends Component {
     return (
       <div>
         <Header theme={this.props.theme} />
-        <Greeting theme={this.props.theme} />
+        <Greeting
+          theme={this.props.theme}
+          showButton={true}
+          greetingText={
+            "Øger trygheden for brugerne, gennem sikkerhedsoptimering af jeres platforme"
+          }
+        />
         <Skills theme={this.props.theme} />
         <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />

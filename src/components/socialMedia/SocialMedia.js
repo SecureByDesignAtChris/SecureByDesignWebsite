@@ -9,7 +9,6 @@ const IconWrapper = styled.span`
   }
   &:hover i {
     background-color: ${({ theme }) => theme.text};
-    transition: 0.3s ease-in;
   }
 `;
 

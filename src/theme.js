@@ -43,11 +43,11 @@ export const purpleTheme = {
 
 export const greenTheme = {
   body: "#FFFFFF",
-  text: "#939393",
-  expTxtColor: "#000000",
-  highlight: "#dddf00",
+  text: "#FFFFFF",
+  expTxtColor: "#FFFFFF",
+  highlight: "#00002e",
   dark: "#00072D",
-  secondaryText: "#717171",
+  secondaryText: "#FFFFFF",
   imageHighlight: "#55a630",
   compImgHighlight: "#E6E6E6",
   jacketColor: "#007f5f",

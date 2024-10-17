@@ -1,12 +1,12 @@
 import React from "react";
 import "./Greeting.css";
 import { greeting } from "../../portfolio";
-import { Fade } from "react-reveal";
+import Button from "../../components/button/Button";
 
 export default function Greeting(props) {
   const theme = props.theme;
   return (
-    <Fade bottom duration={2000} distance="40px">
+    <div>
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
           <div className="greeting-text-div">
@@ -21,16 +21,16 @@ export default function Greeting(props) {
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {greeting.subTitle}
+                {props.greetingText}
               </p>
-              {/* <div className="button-greeting-div">
-              <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
-            </div> */}
+              {props.showButton && (
+                <div className="button-greeting-div">
+                  <Button text="Læs mere" href="ydelser" />
+                </div>
+              )}
             </div>
           </div>
           <div className="greeting-image-div">
-            /
             <img
               alt="SecureByDesign logo"
               src={require("../../assets/images/securebydesign_logo.svg")}
@@ -38,6 +38,6 @@ export default function Greeting(props) {
           </div>
         </div>
       </div>
-    </Fade>
+    </div>
   );
 }
