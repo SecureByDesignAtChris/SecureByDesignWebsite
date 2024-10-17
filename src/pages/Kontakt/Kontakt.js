@@ -25,7 +25,7 @@ class Kontakt extends Component {
               <h3 className="om-heading-sub-text">Hvad er SecureByDesign?</h3>
               <p className="om-header-detail-text">
                 SecureByDesign er skabt ud fra ideén om at alle skal kunne føle
-                sig trygge i at bevæge sig på en virksomheds platform og dele
+                sig trygge i at bevæge sig på en virksomheds platforme og dele
                 deres data. Med flere års erfaring inden for design og udvikling
                 af identity and access management system, kan vi hos
                 SecureByDesign hjælpe jeres virksomhed med at gøre jeres
