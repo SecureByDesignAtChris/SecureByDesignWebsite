@@ -19,6 +19,7 @@
 .kontakt-heading-div {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
 
 .kontakt-heading-div > * {
@@ -48,9 +49,8 @@
   font-family: "Montserrat";
   line-height: normal;
   color: #02150e;
-  white-space: pre;
+  white-space: pre-wrap; /* Allow text to wrap */
   text-align: left;
-  text-wrap: wrap;
   word-wrap: break-word;
 }
 
@@ -59,7 +59,7 @@
   font-family: "Montserrat";
   line-height: normal;
   color: #02150e;
-  white-space: pre;
+  white-space: pre-wrap; /* Allow text to wrap */
   text-align: left;
 }
 
@@ -103,5 +103,27 @@
   .om-header-detail-text {
     font-size: 16px;
     line-height: normal;
+  }
+
+  .om {
+    margin-left: 2%;
+    margin-right: 2%; /* Reduce margins for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .om-heading-text {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  .om-heading-sub-text,
+  .kontakt-heading-sub-text {
+    font-size: 18px;
+  }
+
+  .om {
+    margin-left: 1%;
+    margin-right: 1%; /* Further reduce margins for very small screens */
   }
 }

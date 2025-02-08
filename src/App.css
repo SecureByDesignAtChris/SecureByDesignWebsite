@@ -28,3 +28,40 @@
 .subTitle {
   color: #868e96;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .App-logo {
+    height: 50vmin; /* Increase logo size on smaller screens */
+  }
+
+  .App-header {
+    font-size: calc(8px + 2vmin); /* Adjust font size for smaller screens */
+  }
+
+  .heading {
+    font-size: 1.5em; /* Adjust heading size */
+  }
+
+  .subTitle {
+    font-size: 1em; /* Adjust subtitle size */
+  }
+}
+
+@media (max-width: 480px) {
+  .App-logo {
+    height: 60vmin; /* Further increase logo size on very small screens */
+  }
+
+  .App-header {
+    font-size: calc(6px + 2vmin); /* Further adjust font size */
+  }
+
+  .heading {
+    font-size: 1.2em; /* Further adjust heading size */
+  }
+
+  .subTitle {
+    font-size: 0.9em; /* Further adjust subtitle size */
+  }
+}

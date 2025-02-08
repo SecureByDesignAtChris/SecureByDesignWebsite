@@ -4,7 +4,7 @@
   display: block;
   max-width: 100%;
   padding: 20px 10px;
-  margin: 0px auto;
+  margin: 0 auto;
   background: #02150e;
 }
 
@@ -13,8 +13,8 @@
   padding: 0;
   list-style: none;
   overflow: hidden;
-  /* background-color: #fff; */
 }
+
 .grey-color {
   color: #868e96;
 }
@@ -22,11 +22,13 @@
 .header li {
   display: inline;
 }
+
 .header li a {
   display: inline-block;
-  padding: 20px 20px;
-  /* color: black; */
+  padding: 20px;
+  color: #fff; /* Set default color for links */
   text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition */
 }
 
 .header li a:hover,
@@ -42,11 +44,12 @@
   margin-top: 10px;
   line-height: normal;
 }
+
 .header .logo-name {
   font-family: "Agustina Regular";
   font-weight: bold;
   padding: 0 25%;
-  /* color: #55198b; */
+  color: #55198b; /* Uncommented to apply color */
 }
 
 /* menu */
@@ -55,6 +58,7 @@
   font-family: "Montserrat";
   background: #02150e;
   display: flex;
+  flex-direction: column; /* Stack items vertically by default */
 }
 
 .header .menu {
@@ -62,6 +66,7 @@
   max-height: 0;
   transition: max-height 0.2s ease-out;
   padding-right: 5%;
+  overflow: hidden; /* Ensure menu is hidden when collapsed */
 }
 
 /* menu icon */
@@ -75,7 +80,7 @@
 }
 
 .header .menu-icon .navicon {
-  background: #02150e;
+  background: #fff; /* Ensure visibility of the icon */
   display: block;
   height: 2px;
   position: relative;
@@ -85,7 +90,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #02150e;
+  background: #fff;
   content: "";
   display: block;
   height: 100%;
@@ -132,8 +137,6 @@
 /* 48em = 768px */
 
 @media (min-width: 48em) {
-  .header li {
-  }
   .header {
     display: flex;
     align-items: center;
@@ -141,11 +144,13 @@
   }
   .header .menu {
     max-height: none;
+    flex-direction: row; /* Align items horizontally on larger screens */
   }
   .header .menu-icon {
     display: none;
   }
 }
+
 @media (max-width: 960px) and (min-width: 768px) {
   .header {
     font-size: 12px;

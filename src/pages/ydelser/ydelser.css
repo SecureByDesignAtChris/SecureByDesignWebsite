@@ -16,6 +16,7 @@
   flex-direction: row;
   max-width: 100%;
   justify-content: center;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
 
 .ydelse-heading {
@@ -36,10 +37,8 @@
   font-family: "Montserrat";
   line-height: normal;
   color: #02150e;
-  text-align: center;
-  white-space: pre;
   text-align: left;
-  text-wrap: wrap;
+  white-space: pre-wrap; /* Allow text to wrap */
   word-wrap: break-word;
 }
 
@@ -60,4 +59,69 @@
 
 .divider {
   max-width: 75%;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .ydelse-heading {
+    font-size: 26px;
+  }
+
+  .ydelse-text {
+    font-size: 24px;
+  }
+
+  .ydelse-image-div > * {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ydelse {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center;
+  }
+
+  .ydelse-text-div {
+    max-width: 90%; /* Increase text div width for better readability */
+  }
+
+  .ydelse-heading {
+    font-size: 22px;
+  }
+
+  .ydelse-text {
+    font-size: 20px;
+  }
+
+  .ydelse-image-div > * {
+    height: 200px;
+    width: 200px;
+  }
+
+  .ydelserContainer {
+    margin-left: 2%;
+    margin-right: 2%; /* Reduce margins for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .ydelse-heading {
+    font-size: 18px;
+  }
+
+  .ydelse-text {
+    font-size: 16px;
+  }
+
+  .ydelse-image-div > * {
+    height: 150px;
+    width: 150px;
+  }
+
+  .ydelserContainer {
+    margin-left: 1%;
+    margin-right: 1%; /* Further reduce margins for very small screens */
+  }
 }

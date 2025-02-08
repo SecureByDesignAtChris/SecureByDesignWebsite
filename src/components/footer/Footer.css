@@ -1,14 +1,38 @@
 .footer-text {
   text-align: center;
-  /* color: #868e96; */
+  color: #868e96; /* Uncommented to apply color */
   font-family: "Montserrat";
+  font-size: 14px; /* Set a base font size for better readability */
+  line-height: 1.5; /* Add line height for better text spacing */
+  margin: 0 auto; /* Center the text block */
+  max-width: 90%; /* Limit the width for better readability */
 }
 
 .footer-text a {
-  font-size: 3px;
+  font-size: 12px; /* Adjusted font size for links */
+  color: #868e96; /* Ensure link color matches the text */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.footer-text a:hover {
+  color: #555; /* Darken color on hover for better visibility */
 }
 
 .footer-div {
   text-align: center;
   margin-top: 2rem;
+  padding: 1rem 0; /* Add padding for better spacing */
+  background-color: #f8f9fa; /* Add a subtle background color */
+}
+
+/* Media Query */
+@media (max-width: 480px) {
+  .footer-text {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+
+  .footer-text a {
+    font-size: 10px; /* Adjust link font size for smaller screens */
+  }
 }
